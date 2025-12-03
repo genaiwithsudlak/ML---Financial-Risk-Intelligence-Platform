@@ -1,0 +1,68 @@
+# Core Python and scientific stack
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Feature engineering
+scikit-learn
+category_encoders
+imbalanced-learn
+
+# Classical ML models (extra)
+xgboost
+lightgbm
+catboost
+
+# Deep Learning (optional for fraud/embeddings)
+tensorflow
+torch
+torchvision
+
+# NLP (for description parsing if needed)
+nltk
+spacy
+
+# Model evaluation & experiment management
+mlflow
+optuna
+
+# Data processing / pipelines
+pyyaml
+joblib
+
+# API development
+fastapi
+uvicorn
+
+# Data validation & quality
+great_expectations
+pandera
+ydata_profiling
+
+# Logging & monitoring
+loguru
+python-json-logger
+
+# Testing
+pytest
+pytest-cov
+
+# Utils and helpers
+tqdm
+python-dotenv
+
+# Parallel processing (optional)
+dask
+multiprocessing-logging
+
+# Notebook support
+jupyter
+ipykernel
+# For model explainability
+shap
+lime
