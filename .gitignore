@@ -2,3 +2,4 @@
 venv/
 .venv/
 env/
+reports/ydata_reports/credit_card_eda_report.json
