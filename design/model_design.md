@@ -296,7 +296,7 @@
 
 * **Service downtime**: Load balancer redirects to hot-standby region or fallback rule engine.
 
-### 11.4 Explainability & Compliance (Deep Dive)
+### 11.4 Explainability & Compliance 
 
 *   **Global Explainability**:
     *   **SHAP/LIME**: Batch jobs run daily on a sample of predictions to understand top driving features globally.
@@ -320,8 +320,8 @@
 
 ## 13. Model Design Sign-Off
 
-* **Author**: Antigravity (AI Assistant)
-* **Reviewers**: User (Lead Engineer)
+* **Author**: Sudarshan Lakshate
+* **Reviewers**: Sudarshan Lakshate
 * **Date**: 2025-12-15
 * **Approved Version**: v1.0-Draft
 
