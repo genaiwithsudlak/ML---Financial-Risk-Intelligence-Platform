@@ -1,4 +1,4 @@
-# ML Model Design Document (Industry-Grade)
+# ML Model Design Document 
 
 > **Purpose**: This document captures all decisions, assumptions, and strategies involved in designing a production-ready Machine Learning model. It acts as a single source of truth for engineers, reviewers, and stakeholders.
 
