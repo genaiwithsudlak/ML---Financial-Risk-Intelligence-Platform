@@ -34,8 +34,8 @@ def sample_data_dir(tmp_path_factory):
         'merch_long': [-70.0] * 50,
         'is_fraud': [0] * 50
     })
-    # Add a fraud case
-    df_fraud.loc[0, 'is_fraud'] = 1
+    # Add fraud cases (needs >=2 for StratifiedShuffleSplit)
+    df_fraud.loc[0:2, 'is_fraud'] = 1
     df_fraud.to_csv(data_dir / "credit_card_transactions.csv", index=False)
     
     # 2. IEEE-CIS
@@ -76,7 +76,7 @@ def sample_data_dir(tmp_path_factory):
     # 3. PaySim
     df_paysim = pd.DataFrame({
         'step': [1] * 50,
-        'type': ['PAYMENT'] * 50,
+        'type': ['TRANSFER'] * 50, # CHANGED from PAYMENT to TRANSFER for filtering
         'amount': [100.0] * 50,
         'nameOrig': ['C1'] * 50,
         'oldbalanceOrg': [100.0] * 50,
@@ -103,6 +103,8 @@ def sample_data_dir(tmp_path_factory):
         'NumberOfTime60-89DaysPastDueNotWorse': [0] * 50,
         'NumberOfDependents': [0] * 50
     })
+    # Add positive class for stratify split
+    df_gmsc.loc[0:2, 'SeriousDlqin2yrs'] = 1
     df_gmsc.to_csv(data_dir / "cs-training.csv", index=False)
     
     # 5. Home Credit
@@ -152,6 +154,8 @@ def sample_data_dir(tmp_path_factory):
         'EXT_SOURCE_2': [0.5] * 50,
         'EXT_SOURCE_3': [0.5] * 50,
     })
+    # Add positive class for stratify
+    df_home.loc[0:2, 'TARGET'] = 1
     df_home.to_csv(data_dir / "application_train.csv", index=False)
     
     # 6. Lending Club
@@ -180,6 +184,18 @@ def sample_data_dir(tmp_path_factory):
         'loan_status': ['Fully Paid'] * 50,
         'installment': [300.0] * 50
     })
+    # Add positive class for stratify (Charged Off)
+    df_lc.loc[0:2, 'loan_status'] = 'Charged Off'
     df_lc.to_csv(data_dir / "loan.csv", index=False)
     
     return data_dir
+
+@pytest.fixture(autouse=True)
+def setup_mlflow(tmp_path):
+    """
+    Sets up a temporary MLflow tracking URI for each test to avoid 
+    pollution and permissions issues on CI/CD (especially with committed mlruns).
+    """
+    tracking_uri = f"file://{tmp_path}/mlruns"
+    mlflow.set_tracking_uri(tracking_uri)
+    return tracking_uri
