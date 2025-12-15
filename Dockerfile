@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY src/ src/
 # Copy data (Note: In production, data usually comes from a mounted volume or S3)
-COPY data/ data/
+# COPY data/ data/  <-- REMOVED: Data is not in git. Use volumes in prod.
 # Copy mlruns (for MVP model loading)
 COPY mlruns/ mlruns/
 
