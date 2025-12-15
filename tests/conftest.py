@@ -77,7 +77,7 @@ def sample_data_dir(tmp_path_factory):
     
     # 3. PaySim
     df_paysim = pd.DataFrame({
-        'step': [1] * 50,
+        'step': range(1, 51),
         'type': ['TRANSFER'] * 50, # CHANGED from PAYMENT to TRANSFER for filtering
         'amount': [100.0] * 50,
         'nameOrig': ['C1'] * 50,
