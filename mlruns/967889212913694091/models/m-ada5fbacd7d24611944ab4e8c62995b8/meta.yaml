@@ -1,0 +1,10 @@
+artifact_location: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/967889212913694091/models/m-ada5fbacd7d24611944ab4e8c62995b8/artifacts
+creation_timestamp: 1765792008067
+experiment_id: '967889212913694091'
+last_updated_timestamp: 1765792023333
+model_id: m-ada5fbacd7d24611944ab4e8c62995b8
+model_type: null
+name: fraud_model
+source_run_id: 03add09ee416423a915fd371c896320a
+status: 2
+status_message: null

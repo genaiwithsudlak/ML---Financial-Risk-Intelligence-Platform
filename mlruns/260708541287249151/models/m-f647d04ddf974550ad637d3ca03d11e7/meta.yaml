@@ -1,0 +1,10 @@
+artifact_location: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/260708541287249151/models/m-f647d04ddf974550ad637d3ca03d11e7/artifacts
+creation_timestamp: 1765796656565
+experiment_id: '260708541287249151'
+last_updated_timestamp: 1765796707266
+model_id: m-f647d04ddf974550ad637d3ca03d11e7
+model_type: null
+name: gmsc_loan_model
+source_run_id: 5bdd1f26db774607940bb84ee6b7e3dd
+status: 2
+status_message: null

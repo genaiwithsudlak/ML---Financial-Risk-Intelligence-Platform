@@ -1,0 +1,10 @@
+artifact_location: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/647886330637524499/models/m-18fefb330b734e3b9a3de9319b789de5/artifacts
+creation_timestamp: 1765793380654
+experiment_id: '647886330637524499'
+last_updated_timestamp: 1765793404972
+model_id: m-18fefb330b734e3b9a3de9319b789de5
+model_type: null
+name: paysim_model
+source_run_id: 43ab5ed386c84ec289513d10dbcee1e1
+status: 2
+status_message: null

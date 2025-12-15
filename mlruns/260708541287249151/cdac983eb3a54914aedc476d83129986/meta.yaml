@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/260708541287249151/cdac983eb3a54914aedc476d83129986/artifacts
+end_time: 1765796253599
+entry_point_name: ''
+experiment_id: '260708541287249151'
+lifecycle_stage: active
+run_id: cdac983eb3a54914aedc476d83129986
+run_name: adaptable-snake-683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765796217698
+status: 3
+tags: []
+user_id: shubh

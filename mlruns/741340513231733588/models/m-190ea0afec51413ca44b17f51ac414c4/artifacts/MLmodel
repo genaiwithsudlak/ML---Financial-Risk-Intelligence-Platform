@@ -1,0 +1,21 @@
+artifact_path: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/741340513231733588/models/m-190ea0afec51413ca44b17f51ac414c4/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.lgb
+    lgb_version: 4.6.0
+    model_class: lightgbm.basic.Booster
+  python_function:
+    data: model.lgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.5
+mlflow_version: 3.6.0
+model_id: m-190ea0afec51413ca44b17f51ac414c4
+model_size_bytes: 4057
+model_uuid: m-190ea0afec51413ca44b17f51ac414c4
+prompts: null
+run_id: 3e45e162c034468f98842a4ce5b60486
+utc_time_created: '2025-12-15 11:05:09.478017'

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/741340513231733588/4912bf6a44a24548ae741b2203e662d0/artifacts
+end_time: 1765793818944
+entry_point_name: ''
+experiment_id: '741340513231733588'
+lifecycle_stage: active
+run_id: 4912bf6a44a24548ae741b2203e662d0
+run_name: whimsical-dog-505
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765793788453
+status: 3
+tags: []
+user_id: shubh

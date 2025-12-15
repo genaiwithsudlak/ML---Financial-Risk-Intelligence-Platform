@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/260708541287249151/a4184be412914709b280c3b9c783ffc3/artifacts
+end_time: 1765796416109
+entry_point_name: ''
+experiment_id: '260708541287249151'
+lifecycle_stage: active
+run_id: a4184be412914709b280c3b9c783ffc3
+run_name: valuable-shrike-8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765796382011
+status: 3
+tags: []
+user_id: shubh

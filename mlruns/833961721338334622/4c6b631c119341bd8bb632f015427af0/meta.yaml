@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/833961721338334622/4c6b631c119341bd8bb632f015427af0/artifacts
+end_time: 1765796432649
+entry_point_name: ''
+experiment_id: '833961721338334622'
+lifecycle_stage: active
+run_id: 4c6b631c119341bd8bb632f015427af0
+run_name: spiffy-pug-405
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765796417412
+status: 3
+tags: []
+user_id: shubh

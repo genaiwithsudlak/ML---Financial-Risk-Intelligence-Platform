@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/260708541287249151/5bdd1f26db774607940bb84ee6b7e3dd/artifacts
+end_time: 1765796707415
+entry_point_name: ''
+experiment_id: '260708541287249151'
+lifecycle_stage: active
+run_id: 5bdd1f26db774607940bb84ee6b7e3dd
+run_name: wistful-bear-897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765796656133
+status: 3
+tags: []
+user_id: shubh
