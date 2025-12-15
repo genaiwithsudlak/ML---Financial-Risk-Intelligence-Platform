@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/GitHub_Master/ML---Financial-Risk-Intelligence-Platform/mlruns/833961721338334622/e4bdbea69fc3487eb5614f6ed32fb252/artifacts
+end_time: 1765798402738
+entry_point_name: ''
+experiment_id: '833961721338334622'
+lifecycle_stage: active
+run_id: e4bdbea69fc3487eb5614f6ed32fb252
+run_name: calm-fox-504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765798350634
+status: 3
+tags: []
+user_id: shubh
