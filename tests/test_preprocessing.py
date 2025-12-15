@@ -6,7 +6,7 @@ from pathlib import Path
 
 # Add src to path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from src.preprocessing.fraud_preprocessing import get_preprocessing_pipeline as get_cc_pipe
+from src.preprocessing.fraud_preprocessing import get_fraud_preprocessing_pipeline as get_cc_pipe
 from src.preprocessing.paysim_preprocessing import get_paysim_preprocessing_pipeline as get_ps_pipe
 from src.preprocessing.loan_preprocessing import get_loan_preprocessing_pipeline as get_gmsc_pipe
 from src.preprocessing.homecredit_preprocessing import get_homecredit_preprocessing_pipeline as get_home_pipe

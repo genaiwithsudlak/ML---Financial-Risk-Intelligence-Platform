@@ -21,7 +21,7 @@ class LendingClubFeatureEngineer(BaseEstimator, TransformerMixin):
         try:
             # 1. Term parsing: " 36 months" -> 36
             if 'term' in X.columns:
-                X['term'] = X['term'].astype(str).str.extract('(\d+)').astype(float)
+                X['term'] = X['term'].astype(str).str.extract(r'(\d+)').astype(float)
             
             # 2. Emp Length parsing: "10+ years" -> 10, "< 1 year" -> 0
             if 'emp_length' in X.columns:
