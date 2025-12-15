@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import os
 from pathlib import Path
+import mlflow
+
 
 @pytest.fixture(scope="session")
 def sample_data_dir(tmp_path_factory):
